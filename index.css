@@ -1,14 +1,32 @@
-* {
-    font-family: Arial;
+:root {
+    --primary: #FFCC00;
+    --beacon: #FFFF00;
+    --gray: #BEBEB9;
+    --light-gray: #EBEBEB;
+    --black: #1E1E1E;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
 }
 
 h1 {
-    color: Blue;
-    font-size: 36px;
+    color: var(--black);
+    font-size: 70px;
     text-align: center;
+    background-color: var(--light-gray);
+}
+
+h2 {
+    color: var(--white);
+    font-size: 38px;
+    background-color: var(--black)
 }
 
 p {
     font-size: 18px;
-    color: Gray;
+    color: var(--black);
+    background-color: var(--light-gray);
 }
